@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+int park[5][5];
 int main(){
-    int park[5][5];
+
     int i;
     for(i=0; i<5; i++){
         int j;
@@ -14,6 +14,8 @@ int main(){
 
 
     while(cmd!=-1){
+        printf("\n\n|**********|Main Menu|**********|\n");
+        printf("1. View available slots\n2. Make a new entry\n3. Remove an entry\n\n");
         printf("Enter command : ");
         scanf("%d",&cmd);
         switch(cmd){
@@ -24,7 +26,7 @@ int main(){
                     int j;
                     for(j=0;j<5;j++){
                         if(park[i][j]==-1){
-                            printf("%d, ",(5*i+5*j));
+                            printf("%d, ",(1*i+1*j));
                         }
                     }
                 }
