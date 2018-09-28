@@ -51,25 +51,31 @@
                 int slotNum;
                 scanf("%d",&slotNum);
 
-                if(slotSet[slotNum-1].reserved==0){
-                    printf("Enter customer name : ");
-                    scanf("%s",&slotSet[slotNum-1].customerName);
-                    printf("Enter vehicle number : ");
-                    scanf("%s",&slotSet[slotNum-1].carNumber);
-                    slotSet[slotNum-1].reserved=1;
+                if(slotNum<=slotCount){
+                    if(slotSet[slotNum-1].reserved==0){
+                        printf("Enter customer name : ");
+                        scanf("%s",&slotSet[slotNum-1].customerName);
+                        printf("Enter vehicle number : ");
+                        scanf("%s",&slotSet[slotNum-1].carNumber);
+                        slotSet[slotNum-1].reserved=1;
+                        system("cls");
+                        printf("\n\nSuccessfully recorded!\nPress any key to continue...\n");
+                        getch();
+                    }
+                }
+                else{
                     system("cls");
-                    printf("Successfully reserved!\nPress any key to continue...\n");
-                    getch();
-                }else{
-                    system("cls");
-                    printf("Slot not available!\nPress any key to continue...\n");
+                    printf("\n\n\t\t____________\n\t\t   ERROR!  \n\t\t____________");
+                    printf("\nSlot not available!\nPress any key to continue...\n");
                     getch();
                 }
                 break;
-            }
+           }
 
             case 1:{
                 system("cls");
+                int peekAvailable();
+                int peekOccupant();
                 printf("Enter slot number to free : ");
                 int slotNum;
                 scanf("%d",&slotNum);
@@ -138,6 +144,9 @@
                     printf("All data will be lost! Are you sure?(y/n): ");
                     scanf("%c",&ans);
                     if(ans=='y'){
+                            printf("\t\t\t\t\t===============================================\n");
+                            printf("\t\t\t\t\t\t\tHave a nice day!\n");
+                            printf("\t\t\t\t\t===============================================\n");
                         return;
                     }else if(ans=='n'){
                         action=0;
