@@ -57,7 +57,7 @@ Untill using Exit function the process will execute like a loop.
 
 ### To do
 * The Drive In function gets details even the initial car park size entered is value zero.
-* Should preview a "Car Park Empty" message if the car park if empty when running theView Details of parked cars Function.
+* Should preview a "Car Park Empty" message if the car park is empty when running the View Details of parked cars Function.
 
 ### Deployment
 No additional steps will be needed to deploy this on a live system.
