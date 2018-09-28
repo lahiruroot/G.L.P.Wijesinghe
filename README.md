@@ -1,4 +1,6 @@
-#Easy Drive Car Park Management System
+#G.L.P.Wijesinghe
+##EASY DRIVE 
+###Car Park Management System
 (lahiruka.wijesinghe@gmail.com)
 
 
