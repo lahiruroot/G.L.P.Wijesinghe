@@ -7,10 +7,9 @@
     printf("\n\n\n\n\n\n\n\n\n");
     printf("\t\t\t\t\t=====================================\n");
     printf("\t\t\t\t\tWelcome to Car Park Management System\n\n");
-    //printf("\t\t\t\t\t=====================================\n");
-    //printf("\t\t\t\t\t=====================================\n");
     printf("\t\t\t\t\t_____________EASY DRIVE______________\n");
     printf("\t\t\t\t\t=====================================\n");
+
     Sleep(3000);
     system("cls");
 
@@ -38,7 +37,7 @@
     int action = 0;
 
     while(action!=-1){
-            printf("\nCAR PARK SIZE IS %d\n",slotCount);
+        printf("\nCAR PARK SIZE IS %d\n",slotCount);
         printf("\n\t\t\t\t\t0. Drive In\n");
         printf("\t\t\t\t\t1. Drive Out\n");
         printf("\t\t\t\t\t2. View available spaces\n");
@@ -176,6 +175,7 @@
                             printf("\t\t\t\t\t===============================================\n");
                             printf("\t\t\t\t\t\t\tHave a nice day!\n");
                             printf("\t\t\t\t\t===============================================\n");
+                            Sleep(3000);
                         return;
                     }else if(ans=='n'){
                         action=0;
