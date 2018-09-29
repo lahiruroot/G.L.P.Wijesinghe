@@ -9,18 +9,20 @@ lahiruka.wijesinghe@gmail.com <br/>
 
 ### How to setup
 Download or clone 'CarParkSystem_c' folder from the G.L.P.Wijesinghe folder.
+<br/>Also you can download it [here](https://github.com/FOSSCODY-1/G.L.P.Wijesinghe.git)
 
 ### Prerequisites
 If you are going to develop this program you will need a basic code editor. To execute this program there will be no prerequisites.
 ```
-codeblocks
-notepad++
+ex:
+  code::blocks
+  notepad++
 ```
 
 ### Installing
 ```
-Extract 'CarParkSystem_c' folder
-Compile and Execute CarPark.c file
+Extract 'CarParkSystem_c' folder.
+Compile and Execute CarPark.c file.
 ``` 
   
 ### Instructions To Use The Program
@@ -51,9 +53,9 @@ If it is valied program will execute, else give error message.
 You will will see a message asking to confirm reset.
 
 5.Exit function will end the process after getting the confirmation from user.
-
-Untill using Exit function the process will execute like a loop.
 ```
+* Untill using **Exit** function, the process will execute like a loop.
+
 
 ### To do
 * The Drive In function gets details even the initial car park size entered is value zero.
@@ -75,7 +77,6 @@ Please feel free to contact the owner via email or add as an issue before making
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-* Gratitude to everyone whose code was used in the process of making this project success.
-* Special thanks to my best friend, whithout whom I would have dropped this project long time ago.
+* Special thanks to my best friend, without whom I would have dropped this project a long time ago.
 * All the FOSS-UCSC members.
 * Last but not least my parents.
