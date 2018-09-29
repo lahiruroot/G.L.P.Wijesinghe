@@ -22,7 +22,7 @@ ex:
 ### Installing
 ```
 Extract 'CarParkSystem_c' folder.
-Compile and Execute CarPark.c file.
+Double click and open CarPark.exe file.
 ``` 
   
 ### Instructions To Use The Program
