@@ -70,7 +70,7 @@ Code::Blocks 16.01
 ### Contributing
 Please feel free to contact the owner via email or add as an issue before making any changes to this repositary.
 
-### Authors
+### Developers
 * **Lahiruka Wijesinghe** - *Initial work* - [Lahirukawijes](https://github.com/lahirukawijes)
 
 ### License
