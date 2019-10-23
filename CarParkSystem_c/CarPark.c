@@ -7,7 +7,7 @@
     printf("\n\n\n\n\n\n\n\n\n");
     printf("\t\t\t\t\t=====================================\n");
     printf("\t\t\t\t\tWelcome to Car Park Management System\n\n");
-    printf("\t\t\t\t\t_____________EASY DRIVE______________\n");
+    printf("\t\t\t\t\t_____________Park______________\n");
     printf("\t\t\t\t\t=====================================\n");
 
     Sleep(3000);
@@ -16,7 +16,7 @@
     int slotCount;
     int slotNum;
 
-    printf("\nEnter the size of the car park you need : ");
+    printf("\nEnter the Number  of  car  park: ");
     scanf("%d",&slotCount);
     system("cls");
 
